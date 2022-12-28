@@ -1,0 +1,124 @@
+{
+   "PY": [
+       {
+           "name": "Python-разработчик",
+           "author": "Eduson Academy",
+           "tag": "Python",
+           "link": "https://tutortop.ru/goto/?number=7019&term=9"
+       },
+
+       {
+           "name": "Онлайн-репетитор по Python",
+           "author": "TutGood",
+           "tag": "Python",
+           "link": "https://tutortop.ru/goto/?number=4046&term=9"
+       },
+
+       {
+           "name": "Python - разработчик",
+           "author": "LearnHub",
+           "tag": "Python",
+           "link": "https://tutortop.ru/goto/?number=6866&term=9"
+       },
+
+     {
+           "name": "Разработчик на Python: с нуля до уровня Junior",
+           "author": "Академия «Сигма»",
+           "tag": "Python",
+           "link": "https://tutortop.ru/goto/?number=7740&term=9"
+       },
+
+     {
+           "name": "Бекенд-разработчик на Python",
+           "author": "SF Education",
+           "tag": "Python",
+           "link": "https://tutortop.ru/goto/?number=6321&term=9"
+       },
+     {
+           "name": "Онлайн-курс Python-разработчик",
+           "author": "Бруноям",
+           "tag": "Python",
+           "link": "https://tutortop.ru/goto/?number=2591&term=9"
+       },
+     {
+           "name": "Профессия Python-разработчик",
+           "author": "SkillFactory",
+           "tag": "Python",
+           "link": "https://tutortop.ru/goto/?number=1454&term=9"
+       },
+     {
+           "name": "Python-разработчик plus",
+           "author": "Яндекс Практикум",
+           "tag": "Python",
+           "link": "https://tutortop.ru/goto/?number=1459&term=9"
+       },
+     {
+           "name": "Алгоритмы и структуры данных на Python",
+           "author": "Shultais Education",
+           "tag": "Python",
+           "link": "https://tutortop.ru/goto/?number=4598&term=9"
+       },
+     {
+           "name": "Python Academy",
+           "author": "SF Education",
+           "tag": "Python",
+           "link": "https://tutortop.ru/goto/?number=6313&term=9"
+       }
+   ],
+
+
+
+  "SQL": [
+      {
+           "name": "Основы SQL",
+           "author": "Shultais Education",
+           "tag": "SQL",
+           "link": "https://tutortop.ru/goto/?number=4599&term=9"
+       },
+    {
+           "name": "PostgreSQL: replication, backup and observability",
+           "author": "Слёрм",
+           "tag": "SQL",
+           "link": "https://tutortop.ru/goto/?number=4899&term=9"
+       },
+
+    {
+           "name": "Курс «SQL для работы с данными и аналитики»",
+           "author": "Яндекс Практикум",
+           "tag": "SQL",
+           "link": "https://tutortop.ru/goto/?number=3940&term=9"
+       }
+  ],
+  "DataS": [
+    {
+           "name": "Стань дата-сайентистом и получи работу за рубежом»",
+           "author": "Mathshub",
+           "tag": "DataScience",
+           "link": "https://tutortop.ru/goto/?number=6961&term=9"
+    },
+    {
+      "name": "Аналитика: искусство управлять данными»",
+           "author": "Университет Иннополис",
+           "tag": "DataScience",
+           "link": "https://tutortop.ru/goto/?number=5639&term=9"
+    },
+    {
+      "name": "Профессия Data Scientist»",
+           "author": "SkillFactory",
+           "tag": "DataScience",
+           "link": "https://tutortop.ru/goto/?number=370&term=9"
+    },
+    {
+      "name": "Аналитика данных с нуля до middle»",
+           "author": "Нетология",
+           "tag": "DataScience",
+           "link": "https://tutortop.ru/goto/?number=5852&term=9"
+    },
+    {
+      "name": "Data Scientist",
+      "author": "ProductStar",
+           "tag": "DataScience",
+           "link": "https://tutortop.ru/goto/?number=1869&term=9"
+    }
+  ]
+}

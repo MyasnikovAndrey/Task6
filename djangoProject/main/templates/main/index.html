@@ -1,0 +1,35 @@
+{% load static%}
+<!doctype html>
+<html lang="en">
+<head>
+    <link href="{% static 'style.css' %}" rel="stylesheet" type="text/css" />
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Aboba</title>
+</head>
+<body>
+
+    <div class="container">
+        <img src="{% static 'Screenshot_3.png' %}" />
+    </div>
+
+    <form action="{% url 'loading_page' %}" method="">
+        <textarea name="name" rows="10" cols="50" placeholder="Write something here"></textarea>
+        <button type="submit" class="good">Otpravit </button>
+    </form>
+
+    <div class="switch-btn"></div>
+    <div class="switch-btn switch-on"></div>
+
+    <div class="main-slide__warning">
+        <span data-lang-id="main-warning" >
+            Генератор поможет подобрать обучающие курсы IT специальности на популярных платформах и ресурсах для повышения ваших компетенций.
+        </span>
+    </div>
+
+</form>
+</body>
+</html>

@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"> </script>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Loading</title>
+</head>
+<body>
+    <p> Показ курсов</p>
+    <script>
+            //for (var i = 1; i <= {{aboba}}; i++){
+            //document.body.innerHTML += "<a class='movies' name='seriya-"+i+"'><span>"+"{{ name }}"+"</span></a>";
+            //}
+
+    </script>
+    <script>
+        if ({{ PY }}==1 && {{ DataS }} == 0){
+           $(function output() {
+            $.getJSON('main/', function(data) {
+            $.each(data.PY, function(i, f) {
+                var bebra = ''
+                bebra += '<a href=' + f.link +'>'+ 'Ссылка</a>'
+                var tblRow = "<tr>" + "<td>" + f.name + "</td>" +
+                             "<td>" + f.author + "</td>" + "<td>" + f.tag + "</td>" + "<td>" + bebra + "</td>" + "</tr>"
+            $(tblRow).appendTo("#userdata tbody");
+            });
+            });
+            });
+        }
+
+        if ({{ SQL }}==1){
+           $(function output() {
+            $.getJSON('main/', function(data) {
+            $.each(data.SQL, function(i, f) {
+                var bebra = ''
+                bebra += '<a href=' + f.link +'>'+ 'Ссылка</a>'
+                var tblRow = "<tr>" + "<td>" + f.name + "</td>" +
+                             "<td>" + f.author + "</td>" + "<td>" + f.tag + "</td>" + "<td>" + bebra + "</td>" + "</tr>"
+            $(tblRow).appendTo("#userdata tbody");
+            });
+            });
+            });
+        }
+
+        if ({{ DataS }}==1){
+           $(function output() {
+            $.getJSON('main/', function(data) {
+            $.each(data.DataS, function(i, f) {
+                var bebra = ''
+                bebra += '<a href=' + f.link +'>'+ 'Ссылка</a>'
+                var tblRow = "<tr>" + "<td>" + f.name + "</td>" +
+                             "<td>" + f.author + "</td>" + "<td>" + f.tag + "</td>" + "<td>" + bebra + "</td>" + "</tr>"
+            $(tblRow).appendTo("#userdata tbody");
+            });
+            });
+            });
+        }
+
+
+    </script>
+<div class="wrapper">
+<div class="profile">
+   <table id= "userdata" border="2">
+        <thead>
+            <th>Название курса</th>
+            <th>Авторы</th>
+            <th>Язык</th>
+            <th>Ссылка</th>
+        </thead>
+      <tbody>
+
+      </tbody>
+   </table>
+
+</div>
+</div>
+
+
+</body>
+</html>
